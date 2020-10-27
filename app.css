@@ -1,0 +1,23 @@
+.game-body{
+    position: absolute;
+    display: flex;
+    height: 800px;
+    width: 800px;
+    top: 10px;
+    left: calc(50% - 400px);
+    background-color: bisque;
+}
+.row{
+    margin-left: 0px;
+}
+
+.board-piece{
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+    line-height: 400px;
+    vertical-align: middle;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+}
